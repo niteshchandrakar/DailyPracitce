@@ -5,7 +5,7 @@ export const ContextApi=()=>{
     return(
         <div>
 
-        <div>Context</div>
+        <div>Context Api </div>
        
         </div>
     )

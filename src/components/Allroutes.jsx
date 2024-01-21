@@ -8,6 +8,7 @@ import { UseReducer } from "./UseReducer"
 import { Redux } from "./Redux"
 import Throttling from "./Throttling"
 import Debounce from "./Debounce"
+import { ContextApi } from "../ContextApi/ContextApi"
 
 export const Allroutes=()=>{
     return(
@@ -16,6 +17,7 @@ export const Allroutes=()=>{
             <Route path="/dashboard" element={<DashBoard/>}  />
             <Route path="/login" element={<Login/>}  />
             <Route path="/customcounter" element={<CustomCounter/>}  />
+            <Route path="/context" element={<ContextApi/>}  />
             <Route path="/usereducer" element={<UseReducer/>}  />
             <Route path="/redux" element={<Redux/>}  />
             <Route path="/throttle" element={<Throttling/>}  />
